@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input7"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/font_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:text="Entrega de Pedido"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/tv_fecha"
+            style="@style/font_geo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="26 de mayo del 2020"
+            android:layout_below="@id/tv_title"
+            android:layout_toRightOf="@id/tv_cliente"
+            android:layout_centerVertical="true"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/tv_cliente"
+            style="@style/font_geo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="20dp"
+            android:text="Cliente: Juan Pérez"
+            android:layout_below="@+id/tv_title"
+            ></TextView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_notificacion"
+            android:layout_below="@id/tv_title"
+            android:layout_toRightOf="@id/tv_fecha"
+            ></ImageView>
+
+    </RelativeLayout>
+
+</LinearLayout>

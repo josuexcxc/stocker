@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/p_entradas"
+        android:title="Entradas de productos"
+        android:icon="@drawable/ic_addb"
+
+        ></item>
+    <item
+        android:id="@+id/p_salidas"
+        android:title="Salidas de productos"
+        android:icon="@drawable/ic_delb"></item>
+
+</menu>

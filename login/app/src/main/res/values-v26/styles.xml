@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="active">
+        <item name="android:fontFamily">@font/sans</item>
+        <item name="android:textColor">#8d770a</item>
+        <item name="android:tint">#8d770a</item>
+    </style>
+    <style name="inactive">
+        <item name="android:fontFamily">@font/sans</item>
+        <item name="android:textColor">#3a3a3a</item>
+        <item name="android:tint">#3a3a3a</item>
+    </style>
+
+</resources>
